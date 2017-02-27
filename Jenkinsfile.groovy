@@ -4,8 +4,8 @@ import groovy.json.JsonSlurperClassic
 node {
     env.AWS_DEFAULT_REGION = 'ap-southeast-1'
 	
-	def applicationName = 'antasena-app' //change me
-	def deploymentGroupName = 'antasena-app' // change me
+	def applicationName = 'antasenaa-app' //change me
+	def deploymentGroupName = 'antasenaa-app' // change me
 	def s3BucketName = 'deployment-cdc'
 	
 	//Cleanup workspace
